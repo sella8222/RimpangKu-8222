@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/m_layout_padding"
+    android:orientation="vertical"
+    android:background="@drawable/backg"
+    tools:context="com.rimpangku.dysell.rimpangku.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:layout_weight="4.56"
+            android:adjustViewBounds="true"
+            android:src="@drawable/splash1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/vIdentifikasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d_menu_button_back"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:padding="@dimen/m_button_padding">
+
+        <TextView
+            android:id="@+id/txtIdentifikasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="IDENTIFIKASI"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d_menu_button_back"
+        android:padding="@dimen/m_button_padding"
+        android:layout_marginTop="10dp"
+        android:id="@+id/vBantuan"
+        >
+
+
+        <TextView
+            android:id="@+id/txtBantuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="BANTUAN"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d_menu_button_back"
+        android:padding="@dimen/m_button_padding"
+        android:layout_marginTop="10dp"
+        android:id="@+id/vKeluar">
+
+        <TextView
+            android:id="@+id/txtKeluar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="KELUAR"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
+

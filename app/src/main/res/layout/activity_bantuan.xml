@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rimpangku.dysell.rimpangku.BantuanActivity"
+    android:background="@drawable/backg"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/m_button_padding"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="105dp"
+                android:layout_height="76dp"
+                android:src="@drawable/bantuan" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bantuanTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:fontFamily="casual"
+            android:text="Untuk mengidentifikasi sebuah tanaman rimpang, klik 'IDENTIFIKASI'.
+            Kemudian pilih pernyataan yang sesuai dengan tanaman yang akan diidentifikasi dengan memberi
+            tanda centang pada checkbox. Kemudian klik 'LIHAT HASIL'."
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/m_button_padding">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Beranda"/>
+
+    </LinearLayout>
+</LinearLayout>
